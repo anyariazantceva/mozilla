@@ -69,3 +69,68 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
+
+/* Section sign up */
+.sign-up {
+    padding: 10% 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign__up-title {
+    font-family: 'Zilla Slab', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sign__up-subtitle {
+    margin-bottom: 15px;
+}
+
+.sign__up-group {
+    margin-bottom: 10px;
+}
+
+.sign__up-label {
+    display: block;
+    font-weight: 700;
+}
+
+.sign__up-control {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.sign__up-btn {
+    display: inline-block;
+    background: #000;
+    font-family: inherit;
+    outline: none;
+    vertical-align: middle;
+    border: 1px solid #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    transition: background-color .1s, box-shadow .1s, color .1s, transform .1s;
+}
+
+.sign__up-btn:hover {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+    background-color: #fff;
+    box-shadow: 4px 4px 0 0 #000;
+    color: #000;
+}
+
+.sign__up-note {
+    font-size: 14px;
+    text-align: center;
+}
