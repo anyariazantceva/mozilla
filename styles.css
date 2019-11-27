@@ -1011,4 +1011,134 @@ sans-serif;
   color: #fff;
   text-align: center;
   padding: 0 37px;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+  font-family: Inter, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.footer__logo-link {
+  background: url(https://www.mozilla.org/en-GB/media/protocol/img/logos/mozilla/white.612a25fa976b.svg) no-repeat;
+  background-size: 100px, 32px;
+  overflow: hidden;
+  text-indent: 120%;
+  white-space: nowrap;
+  display: inline-block;
+  height: 32px;
+  width: 100px;
+  margin-bottom: 32px;
+}
+
+.footer__first-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+
+.footer__list {
+  list-style: none;
+  line-height: 2;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__main-link {
+  font-weight: bold;
+}
+
+.footer__second-row {
+  border-top: 1px solid #42425a;
+  padding: 32px 0;
+  font-size: 12px;
+}
+
+.footer__second-link {
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer__second-one,
+.footer__second-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__second-one {
+  margin-bottom: 32px;
+}
+
+.footer__second-visit {
+  width: 70%;
+}
+
+.footer__second-languages {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.footer__second-language {
+  width: 20%;
+}
+
+.footer__second-choose {
+  width: 60%;
+}
+
+.footer__second-select {
+  width: 100%;
+}
+
+.footer__second-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__second-item {
+  padding-right: 20px;
+}
+
+.footer__second-twitter {
+  padding-right: 30px;
+}
+
+.footer__second-social {
+  display: flex;
+}
+
+.footer__twitter {
+  background-image: url(https://www.mozilla.org/en-GB/media/protocol/img/icons/social/twitter/white.3dbd28e41ea3.svg);
+}
+
+.footer__instagram {
+  background-image: url(https://www.mozilla.org/en-GB/media/protocol/img/icons/social/instagram/white.7ca00b3abbfd.svg);
+}
+
+.footer__social-link {
+  overflow: hidden;
+  text-indent: 120%;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid transparent;
+  display: block;
+  height: 16px;
+  width: 16px;
 }
