@@ -944,4 +944,71 @@ sans-serif;
 .sign__up-note {
   font-size: 14px;
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+  font-family: Inter, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Section Privacy */
+
+.privacy {
+  background-image: url(https://www.mozilla.org/en-GB/media/img/home/2018/shield.b3969e107bae.svg), url(/media/img/home/2018/bg-secondary.00e2994fcf64.svg);
+  background-position: calc(50vw + 30px) 120px, 45vw 0;
+  background-repeat: no-repeat;
+  background-color: #20123a;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.privacy__content {
+  width: 48%;
+  padding-bottom: 70px;
+}
+
+.privacy__main-title {
+  background-image: url(https://www.mozilla.org/en-GB/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png);
+  background-size: 40px 40px;
+  font-size: 40px;
+  line-height: 1.1;
+  background-position: left 35px;
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+  padding-top: 90px;
+  font-weight: 700;
+}
+
+.privacy__btn {
+  margin: 32px 0 24px;
+  display: inline-block;
+  background-color: #0060df;
+  border-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 30px;
+}
+
+.privacy__btn:hover {
+  transform: none;
+  background-color: #0250bb;
+  box-shadow: none;
+  color: #fff;
+}
+
+.privacy__note {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.privacy__note-link {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 0 37px;
 }
