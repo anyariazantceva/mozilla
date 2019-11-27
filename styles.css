@@ -256,6 +256,12 @@ h4 {
   text-decoration: none;
   border: 2px solid #0060df;
   padding: 8px 16px;
+  color: #0060df;
+}
+
+.download-button:hover {
+  background-color: #0250bb;
+  color: #fff;
 }
 
 .download-firefox-button {
@@ -1004,6 +1010,10 @@ a {
   color: #fff;
 }
 
+.footer__title {
+  font-weight: 700;
+}
+
 .footer__link:hover {
   text-decoration: underline;
 }
@@ -1021,6 +1031,11 @@ a {
 .footer__second-link {
   color: #fff;
   font-size: 12px;
+  text-decoration: underline;
+}
+
+.footer__second-link:hover {
+  text-decoration: none;
 }
 
 .footer__second-one,
