@@ -76,6 +76,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 24px 96px;
+  margin-top: 24px;
 }
 
 a {
@@ -191,6 +192,7 @@ h4 {
 }
 
 /*saroj styles end here*/
+
 .header {
   width: 85%;
   margin: auto;
@@ -218,6 +220,7 @@ h4 {
   display: inline-block;
   vertical-align: middle;
   margin: 4px 0 0;
+  padding: 0 6px;
 }
 
 .navigation-logo {
@@ -266,16 +269,6 @@ h4 {
   line-height: 40px;
 }
 
-font-size: 16px;
-line-height: 1.5;
-background: #fff;
-color: #000;
-font-family: Inter,
-Arial,
-sans-serif;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
-}
 
 /* First section */
 .section_first {
@@ -366,23 +359,13 @@ sans-serif;
   }
 }
 
-font-size: 16px;
-line-height: 1.5;
-background: #fff;
-color: #000;
-font-family: Inter,
-Arial,
-sans-serif;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
-}
 
 /* Emmanuel's section-2*/
 .container-2 {
   font-family: Inter, X-LocaleSpecific, sans-serif;
   justify-content: space-between;
   display: flex;
-  width: 80.7%;
+  width: 85%;
   margin: auto;
 }
 
@@ -428,8 +411,6 @@ sans-serif;
   border-radius: 2px;
 
 }
-
-
 
 
 /* Emmanuel's start from here. section-9*/
@@ -484,10 +465,6 @@ sans-serif;
   border-radius: 2px;
 
 }
-
-/* 
-       This underlines the text in "underline-on-hover" 
-     */
 
 .underline-on-hover:hover {
   text-decoration: underline;
@@ -593,16 +570,7 @@ a {
 }
 
 /* Emmanuel's ends here. section-9*/
-font-size: 16px;
-line-height: 1.5;
-background: #fff;
-color: #000;
-font-family: Inter,
-Arial,
-sans-serif;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
-}
+
 
 /* Section News */
 
@@ -870,15 +838,7 @@ sans-serif;
     padding: 24px 38px;
   }
 
-  font-size: 16px;
-  line-height: 1.5;
-  background: #fff;
-  color: #000;
-  font-family: Inter,
-  Arial,
-  sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+
 }
 
 /* Section sign up */
