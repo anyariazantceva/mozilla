@@ -1,55 +1,55 @@
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("fonts/Inter-Light-BETA.woff2") format("woff2"),
-    url("fonts/Inter-Light-BETA.woff") format("woff");
+  src: url('fonts/Inter-Light-BETA.woff2') format('woff2'),
+    url('fonts/Inter-Light-BETA.woff') format('woff');
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("fonts/Inter-Regular.woff2") format("woff2"),
-    url("fonts/Inter-Regular.woff") format("woff");
+  src: url('fonts/Inter-Regular.woff2') format('woff2'),
+    url('fonts/Inter-Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("fonts/Inter-Medium.woff2") format("woff2"),
-    url("fonts/Inter-Medium.woff") format("woff");
+  src: url('fonts/Inter-Medium.woff2') format('woff2'),
+    url('fonts/Inter-Medium.woff') format('woff');
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("fonts/Inter-SemiBold.woff2") format("woff2"),
-    url("fonts/Inter-SemiBold.woff") format("woff");
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('fonts/Inter-SemiBold.woff') format('woff');
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("fonts/Inter-Bold.woff2") format("woff2"),
-    url("fonts/Inter-Bold.woff") format("woff");
+  src: url('fonts/Inter-Bold.woff2') format('woff2'),
+    url('fonts/Inter-Bold.woff') format('woff');
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("fonts/Inter-Black.woff2") format("woff2"),
-    url("fonts/Inter-Black.woff") format("woff");
+  src: url('fonts/Inter-Black.woff2') format('woff2'),
+    url('fonts/Inter-Black.woff') format('woff');
 }
 
 *,
@@ -100,7 +100,7 @@ a {
 h2 {
   margin: 5px 0;
   font-size: 24px;
-  font-family: "Zilla Slab", serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: bold;
 }
 
@@ -134,21 +134,21 @@ h4 {
   height: 268px;
   padding: 24px 8px;
   font-size: 16px;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   position: absolute;
   left: 550px;
   text-align: center;
 }
 
 .heading-2 {
-  font-family: "Zilla Slab", serif;
+  font-family: 'Zilla Slab', serif;
   font-size: 40px;
   margin: 0px 0px 18px;
   font-weight: bold;
 }
 
 .mozilla-paragraph-container2 {
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-size: 16px;
   margin: 0px 0px 20px;
   line-height: 1.5;
@@ -214,7 +214,7 @@ h4 {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #000;
   font-weight: 700;
   display: inline-block;
@@ -268,7 +268,6 @@ h4 {
   display: inline-block;
   line-height: 40px;
 }
-
 
 /* First section */
 .section_first {
@@ -359,7 +358,6 @@ h4 {
   }
 }
 
-
 /* Emmanuel's section-2*/
 .container-2 {
   font-family: Inter, X-LocaleSpecific, sans-serif;
@@ -385,7 +383,7 @@ h4 {
 
 .Privacy {
   font-family: Inter, X-LocaleSpecific, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #42425a;
   font-weight: 400;
@@ -403,15 +401,12 @@ h4 {
 .container-2-right:hover {
   box-shadow: 0 0 0 4px #ededf0;
   border-radius: 2px;
-
 }
 
 .container-2-left:hover {
   box-shadow: 0 0 0 4px #ededf0;
   border-radius: 2px;
-
 }
-
 
 /* Emmanuel's start from here. section-9*/
 .container-9 {
@@ -424,7 +419,7 @@ h4 {
 
 .Grants {
   font-family: Inter, X-LocaleSpecific, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #42425a;
   font-weight: 400;
@@ -433,7 +428,7 @@ h4 {
 
 .Tutorial {
   font-family: Inter, X-LocaleSpecific, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #42425a;
   font-weight: 400;
@@ -441,8 +436,12 @@ h4 {
 }
 
 .head {
-  font-family: "Ziilla Slab", serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: 700;
+}
+
+.head__underline-title {
+  font-size: 40px;
 }
 
 .mzp-c-card-image {
@@ -457,13 +456,11 @@ h4 {
 .container-9-right:hover {
   box-shadow: 0 0 0 4px #ededf0;
   border-radius: 2px;
-
 }
 
 .container-9-left:hover {
   box-shadow: 0 0 0 4px #ededf0;
   border-radius: 2px;
-
 }
 
 .underline-on-hover:hover {
@@ -475,13 +472,10 @@ a {
   color: #000;
 }
 
-
 .link {
   color: #0060df;
   text-decoration: underline;
 }
-
-
 
 /* css for section-10*/
 .container-10 {
@@ -493,14 +487,12 @@ a {
   display: flex;
 }
 
-
 /*image and opensource div */
 .container-10-left {
   position: absolute;
   top: -20%;
   right: 55%;
 }
-
 
 /**/
 .container-10-right {
@@ -510,24 +502,19 @@ a {
   padding-bottom: 40px;
 }
 
-
 /**/
 .opensource-content {
   justify-content: center;
   text-align: center;
 }
 
-
 .opensource {
   font-size: 1.5rem;
   color: #000;
-  font-family: Inter, X-LocaleSpecific, "Ziilla Slab", sans-serif;
+  font-family: Inter, X-LocaleSpecific, 'Ziilla Slab', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-
-
-
 
 /* css for section-11*/
 .container-11 {
@@ -540,17 +527,16 @@ a {
 
 .Developers {
   font-family: Inter, X-LocaleSpecific, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #42425a;
   font-weight: 400;
   margin-bottom: 4px;
 }
 
-
 .security {
   font-family: Inter, X-LocaleSpecific, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #42425a;
   font-weight: 400;
@@ -562,7 +548,6 @@ a {
   width: 48%;
 }
 
-
 .container-11-right:hover,
 .container-11-left:hover {
   box-shadow: 0 0 0 4px #ededf0;
@@ -570,7 +555,6 @@ a {
 }
 
 /* Emmanuel's ends here. section-9*/
-
 
 /* Section News */
 
@@ -609,7 +593,6 @@ a {
 .news__list-item {
   width: 23%;
   transition: all 5ms;
-
 }
 
 .news__list-item:hover {
@@ -801,7 +784,6 @@ a {
 
   .reality__item-link {
     font-size: 17px;
-
   }
 
   .reality__item-text {
@@ -832,13 +814,10 @@ a {
   }
 }
 
-
 @media screen and (max-width: 576px) {
   .section__container {
     padding: 24px 38px;
   }
-
-
 }
 
 /* Section sign up */
@@ -890,7 +869,7 @@ a {
   width: 100%;
   padding: 15px 0;
   margin-bottom: 10px;
-  transition: background-color .1s, box-shadow .1s, color .1s, transform .1s;
+  transition: background-color 0.1s, box-shadow 0.1s, color 0.1s, transform 0.1s;
 }
 
 .sign__up-btn:hover {
@@ -916,7 +895,8 @@ a {
 /* Section Privacy */
 
 .privacy {
-  background-image: url(https://www.mozilla.org/en-GB/media/img/home/2018/shield.b3969e107bae.svg), url(/media/img/home/2018/bg-secondary.00e2994fcf64.svg);
+  background-image: url(https://www.mozilla.org/en-GB/media/img/home/2018/shield.b3969e107bae.svg),
+    url(/media/img/home/2018/bg-secondary.00e2994fcf64.svg);
   background-position: calc(50vw + 30px) 120px, 45vw 0;
   background-repeat: no-repeat;
   background-color: #20123a;
@@ -988,7 +968,8 @@ a {
 }
 
 .footer__logo-link {
-  background: url(https://www.mozilla.org/en-GB/media/protocol/img/logos/mozilla/white.612a25fa976b.svg) no-repeat;
+  background: url(https://www.mozilla.org/en-GB/media/protocol/img/logos/mozilla/white.612a25fa976b.svg)
+    no-repeat;
   background-size: 100px, 32px;
   overflow: hidden;
   text-indent: 120%;
