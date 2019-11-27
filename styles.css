@@ -365,3 +365,231 @@ sans-serif;
     width: 100%;
   }
 }
+
+font-size: 16px;
+line-height: 1.5;
+background: #fff;
+color: #000;
+font-family: Inter,
+Arial,
+sans-serif;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+}
+
+/* Emmanuel's section-2*/
+.container-2 {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  width: 80.7%;
+  margin: auto;
+}
+
+.mzp-c-card-image {
+  display: block;
+  max-width: none;
+  width: 100%;
+}
+
+.mzp-c-card-tag {
+  background-image: url(https://www.mozilla.org/en-US/media/protocol/img/icons/video-card.7935f00633ae.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 32px;
+  line-height: 1.8;
+}
+
+.Privacy {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #42425a;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.container-2-left {
+  width: 65%;
+}
+
+.container-2-right {
+  width: 32%;
+}
+
+.container-2-right:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+  border-radius: 2px;
+
+}
+
+.container-2-left:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+  border-radius: 2px;
+
+}
+
+
+
+
+/* Emmanuel's start from here. section-9*/
+.container-9 {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 100px;
+  margin: 0px auto 0px auto;
+}
+
+.Grants {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #42425a;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.Tutorial {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #42425a;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.head {
+  font-family: "Ziilla Slab", serif;
+  font-weight: 700;
+}
+
+.mzp-c-card-image {
+  width: 100%;
+}
+
+.container-9-left,
+.container-9-right {
+  width: 48%;
+}
+
+.container-9-right:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+  border-radius: 2px;
+
+}
+
+.container-9-left:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+  border-radius: 2px;
+
+}
+
+/* 
+       This underlines the text in "underline-on-hover" 
+     */
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.link {
+  color: #0060df;
+  text-decoration: underline;
+}
+
+
+
+/* css for section-10*/
+.container-10 {
+  background-color: rgb(225, 225, 225);
+  margin: 100px 150px 100px 150px;
+  line-height: normal;
+  position: relative;
+  padding-left: 50%;
+  display: flex;
+}
+
+
+/*image and opensource div */
+.container-10-left {
+  position: absolute;
+  top: -20%;
+  right: 55%;
+}
+
+
+/**/
+.container-10-right {
+  position: relative;
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+
+/**/
+.opensource-content {
+  justify-content: center;
+  text-align: center;
+}
+
+
+.opensource {
+  font-size: 1.5rem;
+  color: #000;
+  font-family: Inter, X-LocaleSpecific, "Ziilla Slab", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+/* css for section-11*/
+.container-11 {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 100px;
+  margin: 0px auto 0px auto;
+}
+
+.Developers {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #42425a;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+
+.security {
+  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #42425a;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.container-11-left,
+.container-11-right {
+  width: 48%;
+}
+
+
+.container-11-right:hover,
+.container-11-left:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+  border-radius: 2px;
+}
+
+/* Emmanuel's ends here. section-9*/
