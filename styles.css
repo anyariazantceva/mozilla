@@ -69,6 +69,61 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
+/* Emmanuel's section-2*/
+.container-2 { 
+    font-family: Inter,X-LocaleSpecific,sans-serif;
+    justify-content: space-between;
+    display: flex;
+    width: 80.7%;
+    margin: auto;  
+  }
+  
+  .mzp-c-card-image{
+    display: block;
+    max-width: none;
+    width: 100%;
+  }
+  
+  .mzp-c-card-tag {
+    background-image: url(https://www.mozilla.org/en-US/media/protocol/img/icons/video-card.7935f00633ae.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 32px;
+    line-height: 1.8;
+    }
+  
+    .Privacy {
+      font-family: Inter,X-LocaleSpecific,sans-serif;
+      font-size: .875rem;
+      line-height: 1.5;
+      color: #42425a;
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+  
+    .container-2-left{
+      width: 65%;
+    }
+    
+    .container-2-right{
+      width:32%;
+    }
+    
+    .container-2-right:hover {
+      box-shadow: 0 0 0 4px #ededf0; 
+      border-radius: 2px;
+    
+    }
+      
+    .container-2-left:hover {
+      box-shadow: 0 0 0 4px #ededf0;
+      border-radius: 2px;
+    
+       }
+
+
+
+
 /* Emmanuel's start from here. section-9*/
 .container-9 {
     font-family: Inter,X-LocaleSpecific,sans-serif;
