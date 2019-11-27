@@ -69,9 +69,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
 /*saroj styles*/
 
-/*.mozilla-container {
+.mozilla-container {
   display: flex;
   justify-content: space-between;
   padding: 24px 96px;
@@ -90,20 +91,24 @@ a {
   margin-bottom: 10px;
   width: 100%;
 }
+
 .description {
   padding: 8px;
 }
+
 h2 {
   margin: 5px 0;
   font-size: 24px;
   font-family: "Zilla Slab", serif;
   font-weight: bold;
 }
+
 h4 {
   color: #42425a;
   font-weight: 400;
   font-size: 14px;
 }
+
 .mozilla-paragraph {
   line-height: 1.5;
 }
@@ -111,6 +116,7 @@ h4 {
 .mozilla-container-2 {
   padding: 0px 96px;
 }
+
 .img4-size {
   margin: -43px 0 -43px 160px;
 }
@@ -132,12 +138,14 @@ h4 {
   left: 550px;
   text-align: center;
 }
+
 .heading-2 {
   font-family: "Zilla Slab", serif;
   font-size: 40px;
   margin: 0px 0px 18px;
   font-weight: bold;
 }
+
 .mozilla-paragraph-container2 {
   font-family: "inter", serif;
   font-size: 16px;
@@ -149,14 +157,17 @@ h4 {
   display: flex;
   justify-content: space-between;
   /*width: 85%;*/
-/*padding: 0px 96px 24px;
+  padding: 0px 96px 24px;
 }
+
 .third-part1 {
   width: 48.2%;
 }
+
 .img5-size {
   width: 100%;
 }
+
 .mozilla-container a:hover {
   text-decoration: underline;
 }
@@ -164,17 +175,21 @@ h4 {
 .mozilla-image:hover {
   box-shadow: 0 0 0 4px #ededf0;
 }
+
 .third-part1:hover {
   box-shadow: 0 0 0 4px #ededf0;
 }
+
 .link {
   text-decoration: underline;
   color: #0060df;
   font-weight: 700;
 }
+
 .mozilla-container-3 h2:hover {
   text-decoration: underline;
-}*/
+}
+
 /*saroj styles end here*/
 .header {
   width: 85%;
@@ -188,9 +203,11 @@ h4 {
   vertical-align: middle;
   position: relative;
 }
+
 .navigation-logo {
   padding: 8px 16px;
 }
+
 .mozilla-home-logo {
   text-decoration: none;
   color: #fff;
@@ -202,9 +219,11 @@ h4 {
   vertical-align: middle;
   margin: 4px 0 0;
 }
+
 .navigation-logo {
   width: 12%;
 }
+
 .navigation-menu {
   padding: 0 16px 24px;
   margin: 0;
@@ -235,6 +254,7 @@ h4 {
   border: 2px solid #0060df;
   padding: 8px 16px;
 }
+
 .download-firefox-button {
   text-decoration: none;
   color: #000;
@@ -244,4 +264,104 @@ h4 {
   vertical-align: middle;
   display: inline-block;
   line-height: 40px;
+}
+
+font-size: 16px;
+line-height: 1.5;
+background: #fff;
+color: #000;
+font-family: Inter,
+Arial,
+sans-serif;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+}
+
+/* First section */
+.section_first {
+  background-image: url(https://www.mozilla.org/en-GB/media/img/home/2018/bg-primary.00f406a0fc85.svg);
+  background-position: calc(50vw + 34px) 60px, calc(50vw - 41px) -78px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #20123a;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first__content {
+  width: 48%;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+.first__browser-picture {
+  width: 41%;
+  padding-top: 20px;
+}
+
+.first__image {
+  margin-bottom: 32px;
+}
+
+.first__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  padding-top: 0;
+  font-weight: 700;
+}
+
+.first__btn {
+  margin: 32px 0 17px;
+  display: inline-block;
+  background-color: #0060df;
+  border-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 30px;
+}
+
+.first__btn:hover {
+  transform: none;
+  background-color: #0250bb;
+  box-shadow: none;
+  color: #fff;
+}
+
+.first__note {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.first__note-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #20123a;
+  text-align: center;
+  padding: 0 37px;
+}
+
+.first__note-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 930px) {
+  .first__browser-picture {
+    display: none;
+  }
+
+  .section_first {
+    justify-content: center;
+    text-align: center;
+    background: none;
+  }
+
+  .first__content {
+    width: 100%;
+  }
 }
